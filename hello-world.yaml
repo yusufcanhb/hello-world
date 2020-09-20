@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      run: hello
+      app: hello-world
   replicas: 2
   template:
     metadata:
       labels:
-        run: hello
+        pp: hello-world
     spec:
       containers:
         - name: hello-world
