@@ -18,3 +18,8 @@ spec:
           ports:
             - containerPort: 11130
               protocol: TCP
+          resources:
+              limits:
+                cpu: 500m
+              requests:
+                cpu: 200m
