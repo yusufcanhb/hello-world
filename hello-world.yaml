@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: nagihanvural/python-web-app:${VERSION}
+          image: nagihanvural/python-web-app:2
           ports:
             - containerPort: 11130
               protocol: TCP
